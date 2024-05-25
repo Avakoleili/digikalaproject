@@ -6,7 +6,7 @@
     width: 1337px;
     height: 110px;
     display: flex;
-    background: url(../../images/3rd-page/amazing__market.svg) #edefed;
+    background-image: url(../images/3rd-page/amazing__market.svg) #edefed;
     background-position: left center;
     background-repeat: no-repeat !important;
     padding:16px 40px  12px  ;
