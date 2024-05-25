@@ -7,13 +7,13 @@
     height: 110px;
     display: flex;
     background-color: #edefed;
-    background-image: url(../../images/3rd-page/amazing__market.svg);
+    background: url(../../images/3rd-page/amazing__market.svg) #edefed;
     background-position: left center;
     background-repeat: no-repeat !important;
     padding:16px 40px  12px  ;
     box-sizing: border-box;
     align-items: center;
-    /* background: url(view-source:https://www.digikala.com/statics/img/svg/typography/freshPattern.svg); */
+
     margin: 20px auto;
     border-radius: 15px;
     .amazing__right {
