@@ -1,0 +1,464 @@
+.bestselling__wrapper {
+  width: 100%;
+  height: 403px;
+  direction: rtl;
+  .bestselling {
+    width: 1337px;
+    height: inherit;
+    padding: 16px 0px;
+   
+    border-radius: 15px;
+    border: 1px solid #F0F0F1;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+    .bestselling__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 5px;
+      width: 1334px;
+      height: 44px;
+      padding: 0 20px;
+      & p {
+        font-family: IranYekan;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+    
+      .bestselling__1 {
+        width: 314px;
+        height: 298px;
+        background-color: white;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .bestselling__1__1 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 900;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__1__2 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__1__3 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+      }
+      .bestselling__2 {
+        width: 314px;
+        height: 298px;
+        background-color: white;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .bestselling__2__1 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__2__2 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__2__3 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+      }
+      .bestselling__3 {
+        width: 314px;
+        height: 298px;
+        background-color: white;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .bestselling__3__1 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__3__2 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 70px;
+              height: 70px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__3__3 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 70px;
+              height: 70px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+      }
+      .bestselling__4 {
+        width: 314px;
+        height: 298px;
+        background-color: white;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .bestselling__4__1 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 70px;
+              height: 70px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__4__2 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 86px;
+              height: 86px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+        .bestselling__4__3 {
+          width: 301px;
+          height: 86px;
+          box-sizing: border-box;
+          & a {
+            display: flex;
+            align-items: center;
+            width: 314px;
+            height: 86px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            & img {
+              width: 70px;
+              height: 70px;
+            }
+            & p {
+              font-family: Iranyekan;
+              font-size: 11px;
+              color: #3f4064;
+            }
+            & span {
+              font-size: 25px;
+              font-weight: 800;
+              line-height: 2.1;
+              text-decoration: none;
+              margin-left: 12px;
+              color: rgb(25, 191, 211);
+              font-family: IranYekannum;
+            }
+          }
+        }
+      }
+    
+  }
+}
+.separator__line {
+  width: 160px;
+  height: 1px;
+  background-color: #F0F0F1;
+  margin: 0 auto;
+  display: flex;
+}
+.bestselling__items{
+    width: 1238px;
+    height: 298px;
+  margin-top: 30px auto;
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,27 @@
+.digiplus__members{
+    width: 100%;
+    max-height: 110px;
+    display: flex;
+
+background: url(../../images/3rd-page/digiplus-members-2.svg) left center no-repeat, url(../../images/3rd-page/digiplus-members.svg) right center no-repeat, #E9E1E9
+;
+    padding:16px 40px  12px  ;
+    direction: rtl;
+    box-sizing: border-box;
+    align-items: center;
+justify-content: space-between;
+    margin: 10px 0px 0px ;
+    border-radius: 15px;
+}
+.digiplus__members__left{
+    display: flex;
+    align-items: center;  
+   
+   
+    & span{
+        font-family: IranYekan;
+        color: #b12ba4;
+        font-size:16px ;
+        font-weight: bold;
+    }
+}

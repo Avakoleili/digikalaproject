@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a { text-decoration: none; }
+}
+:root{
+    --fontFamily:IranYekan;}
+    
+@font-face{
+    font-family: IranYekan;
+    src: url('../fonts/IRANYekanWeb.eot');
+    src: url('../fonts/IRANYekanWeb.ttf');
+    src: url('../fonts/IRANYekanWeb.woff');    
+    src: url('../fonts/IRANYekanWeb.woff2');        
+}
+
+@font-face{
+    font-family: IranYekannum;
+    src: url(../fonts/iranyekan-cufonfonts/Qs_Iranyekan.ttf);
+    src: url(../fonts/iranyekan-cufonfonts/Qs_Iranyekan\ medium.ttf);
+}

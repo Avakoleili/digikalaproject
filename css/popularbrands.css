@@ -1,0 +1,96 @@
+.popular__brands{
+ 
+    width: 1337px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    outline: 1px solid #F0F0F1;
+    border-radius: 15px;
+    margin: 0 auto;
+   
+    .slider__text{
+        width: 100%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        column-gap: 10px;
+       & p{
+        font-family: IranYekan;
+
+       }
+        .svg__container__1{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+    }
+
+
+.popular__brands__center{
+    width: 95%;
+    height: 117px;
+    background-color: #F0F0F1;
+    
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .swiper-slide {
+        width: 146px;
+        text-align: center;
+        font-size: 18px;
+        background: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+      }
+    
+     .swiper-popularbrands
+     {
+        width: 100px;
+        height: 100px;
+     }
+
+}
+.brand{
+  display: block;
+  max-height: 110px !important;
+  max-width:110px !important;
+  border-radius: unset !important;
+  outline: none !important;
+  
+}
+.expetion__1{
+all: unset !important;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  outline: 1px solid lightgray;
+  text-align: center;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 10px;
+  color: #5a5e66;
+  font-weight: bolder !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+

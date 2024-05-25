@@ -1,0 +1,122 @@
+.shopping__by__category__wrapper{
+    width: 100%;
+    height: 460px;
+    margin-top: 30px;
+    
+    .shopping__by__category{
+        width: 1336px;
+        height: 460px;
+        flex-direction: column;
+        padding: 16px 16px 40px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        .shopping__by__category__header{
+        width: 100%;
+            height: 44px;
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            & h3{
+font-family: IranYekannum;
+font-size: 21px;
+display: block;
+font-weight: 500;
+            }
+        }
+
+    }
+
+}
+.shopping__by__category__slider{
+    width: 100%;
+    height: 324px;
+    
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 61px;
+    direction: rtl;
+  
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+  }
+  .shopping__by__category__header{
+    width: 100%;
+    height: inherit;
+  }
+  
+  .category{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .category__1{
+      width: 120px;
+      height: 160px;
+      & a{
+        width: 120px;
+        height: 134px;
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        & img{
+          all: unset;
+          width: 100px;
+          height: 100px;
+        }
+        & p{
+          font-family: IranYekan;
+          font-size: 12px;
+          color: black;
+          font-weight: 600;
+          margin-top: 8px;
+        }
+      }
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      outline: 1px solid lightgray;
+      text-align: center;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+      font-size: 10px;
+      color: #5a5e66;
+      font-weight: bolder !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+    }
+  }

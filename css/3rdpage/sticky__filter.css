@@ -1,0 +1,272 @@
+.sticky__filter{
+    width: 270px;
+    height: 530px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    position: sticky;
+    top: 80px;
+    .filter__title{
+        width: 100%;
+        height: 64px;
+        padding: 16px 20px;
+        font-family: IranYekannum;
+        font-size: 19px;
+        color: #3f4064;
+        font-weight: 500;
+    }
+    .filter__brands{
+        width: 230px;
+        height: 57px;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: unset;
+      
+        .filter__brands__center{
+            width: 100%;
+            height:32px ;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+         
+            & span{
+                font-family: IranYekannum;
+                font-size: 15px;
+                color: #3f4064;
+            }
+        }
+       
+    }
+    .filter__shipping__today{
+        width: 100%;
+        height: 56px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .filter__shipping__today__center{
+            width: 100%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .filter__shipping__today__center__right{
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                & span{
+                    font-family: IranYekannum;
+                    font-size: 15px;
+                    color: #3f4064;
+                }
+                & svg{
+                    margin-right: 8px;
+                }
+            }
+            .filter__shipping__today__center__left{
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                position: relative;
+            }
+        }
+    }
+    .filter__only__supermarkets{
+        width: 100%;
+        height: 56px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .filter__only__supermarkets__center{
+            width: 100%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .filter__only__supermarkets__right{
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            & span{
+                font-family: IranYekannum;
+                font-size: 15px;
+                color: #3f4064;
+            }
+            & svg{
+                margin-right: 8px;
+            } 
+        }
+        .filter__only__supermarkets__left{
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+    }
+    .filter__direct__shipping{
+        width: 100%;
+        height: 87px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .filter__direct__shipping__top{
+            width: 100%;
+            height: calc(100% / 2);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .filter__direct__shipping__top__right{
+                width: fit-content;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                & span{
+                    font-family: IranYekannum;
+                    font-size: 15px;
+                    color: #3f4064;
+                }
+                & svg{
+                    margin-right: 8px;
+                }
+            }
+            .filter__direct__shipping__top__left{
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                position: relative;
+            }
+        }
+        .filter__direct__shipping__bottom{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            font-family: IranYekannum;
+            font-size: 14px;
+          color: #81858b;
+        }
+    }
+    .filter__only__available{
+        width: 100%;
+        height: 56px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .filter__only__available__center{
+            width: 100%;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & span{
+                font-family: IranYekannum;
+                font-size: 15px;
+                color: #3f4064;
+            }
+        }
+    }
+    .filter__only__available__in__digikala{
+width: 100%;
+        height: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+   .filter__only__available__in__digikala__right{
+    width: 180px;
+    height: 64px;
+    font-family: IranYekannum;
+    font-size: 15px;
+    color: #3f4064;
+   }
+   .filter__only__available__in__digikala__left{
+height: 100%;
+position: relative;
+width:55px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+   }
+    }
+}
+.filter__button{
+    width: 40px;
+    height: 20px;
+    border: 2px solid #a1a3a8;
+    border-radius: 15px;
+    box-sizing: border-box;
+   
+}
+.filter__bullet{
+    width: 10px;
+    height: 10px;
+    background-color: #a1a3a8;
+    border-radius: 50px;
+    position: absolute;
+   right: 25px;
+ 
+}
+.filter__bullet__2{
+    width: 10px;
+    height: 10px;
+    background-color: #a1a3a8;
+    border-radius: 50px;
+    position: absolute;
+    left: 16px;
+
+}
+.filter__button__2{
+    width: 40px;
+    height: 20px;
+    border: 2px solid #a1a3a8;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.filter__brands__border{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #f0f0f1;
+    display: flex;
+    align-items: center;
+
+}
+.filter__brands__border__2{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #f0f0f1;
+   padding: 12px 0px;
+   display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.filter__brands__border__4{
+    width: 100%;
+    height: 100%;
+   padding: 12px 0px;
+   display: flex;
+    box-sizing: border-box;
+ 
+}
+.filter__brands__border__3{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #f0f0f1;
+   padding: 12px 0px;
+   display: flex;
+    box-sizing: border-box;
+    align-items: center;
+   
+}
+.filter__button__2{
+    width: 30px;
+    height: 20px;
+    border: 2px solid #a1a3a8;
+    border-radius: 15px;
+    box-sizing: border-box;
+}

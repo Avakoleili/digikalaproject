@@ -1,0 +1,167 @@
+
+
+.hottest__wrapper{
+    width: 100%;
+    height: 370px;
+    padding: 16px 0px;
+  margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    .hottest{
+        width: 1337px;
+        height: 370px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid #F0F0F1;
+        border-radius: 15px;
+        .hottest__header{
+          width: 100%;
+          direction: rtl;
+          height: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          & p{
+              font-family: IranYekannum;
+              font-size: 21px;
+          }
+      }
+      .swiper {
+        width: 100%;
+      height: 297px;
+      direction: rtl;
+      
+      }
+    
+      .swiper-slide{
+        width: 314px !important;
+        height: 298px;
+        background-color: white;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .hottest__1__1 {
+            width: 301px;
+            height: 86px;
+            box-sizing: border-box;
+            & a {
+              display: flex;
+              align-items: center;
+              width: 314px;
+              height: 86px;
+              text-decoration: none;
+              padding-bottom: 10px;
+              & img {
+                width: 86px;
+                height: 86px;
+              }
+              & p {
+                font-family: Iranyekan;
+                font-size: 11px;
+                color: #3f4064;
+              }
+              & span {
+                font-size: 25px;
+                font-weight: 900;
+                line-height: 2.1;
+                text-decoration: none;
+                margin-left: 12px;
+                color: rgb(25, 191, 211);
+                font-family: IranYekannum;
+              }
+            }
+          }
+          .hottest__1__2 {
+            width: 301px;
+            height: 86px;
+            box-sizing: border-box;
+            & a {
+              display: flex;
+              align-items: center;
+              width: 314px;
+              height: 86px;
+              text-decoration: none;
+              padding-bottom: 10px;
+              & img {
+                width: 86px;
+                height: 86px;
+              }
+              & p {
+                font-family: Iranyekan;
+                font-size: 11px;
+                color: #3f4064;
+              }
+              & span {
+                font-size: 25px;
+                font-weight: 800;
+                line-height: 2.1;
+                text-decoration: none;
+                margin-left: 12px;
+                color: rgb(25, 191, 211);
+                font-family: IranYekannum;
+              }
+            }
+          }
+          .hottest__1__3 {
+            width: 301px;
+            height: 86px;
+            box-sizing: border-box;
+            & a {
+              display: flex;
+              align-items: center;
+              width: 314px;
+              height: 86px;
+              text-decoration: none;
+              padding-bottom: 10px;
+              & img {
+                width: 86px;
+                height: 86px;
+              }
+              & p {
+                font-family: Iranyekan;
+                font-size: 11px;
+                color: #3f4064;
+              }
+              & span {
+                font-size: 25px;
+                font-weight: 800;
+                line-height: 2.1;
+                text-decoration: none;
+                margin-left: 12px;
+                color: rgb(25, 191, 211);
+                font-family: IranYekannum;
+              }
+            }
+          }
+    }
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #ffffff;
+      outline: 1px solid lightgray;
+      text-align: center;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+      font-size: 10px;
+      color: #5a5e66;
+      font-weight: bolder !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    
+}
+
+

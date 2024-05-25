@@ -1,0 +1,141 @@
+.digiclub__wrapper {
+  width: 100%;
+  height: 90px;
+  direction: rtl;
+  .digiclub {
+    width: 1337px;
+    margin: 0 auto;
+    height: inherit;
+    background-color: #007295;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: ltr;
+    padding: 12px 16px;
+  margin-top: 10px;
+    .digiclub__opations{
+        width: 830px;
+        height: 63px;
+        display: flex;
+        column-gap: 5px;
+        position: relative;
+        left: 10px;
+    .option__1 {
+      width: 274px;
+      height: 64px;
+      background-color: white;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      & a{
+        text-decoration: none;
+       color: black;
+       display: flex;
+       align-items: center;
+       height: 64px !important;
+       width: 274px;
+      .digiclub__text{
+        width: 100px;
+        height: 26px;
+        margin: 0px 16px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+       & span{
+        font-family: IranYekan;
+        font-size: 12px;
+        font-weight: bold;
+       }
+       
+      }
+      .digiclub__img{
+        width: 168px !important;
+    height: 60px !important;
+    & img{
+        width: 168px !important;
+        height: 60px !important;
+    }
+    }
+    }
+  }
+  .option__2 {
+    width: 274px;
+    height: 64px;
+    background-color: white;
+    & a{
+      text-decoration: none;
+     color: black;
+     display: flex;
+     align-items: center;
+     height: 64px !important;
+     width: 274px;
+    .digiclub__text{
+      width: 100px;
+      height: 26px;
+      margin: 0px 16px 0px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 9px;
+     & span{
+      font-family: IranYekan;
+      font-size: 12px;
+      font-weight: bold;
+     }
+     
+    }
+    .digiclub__img{
+      width: 168px !important;
+  height: 60px !important;
+  & img{
+      width: 168px !important;
+      height: 60px !important;
+  }
+  }
+  }
+}
+.option__3 {
+    width: 274px;
+    height: 64px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    & a{
+      text-decoration: none;
+     color: black;
+     display: flex;
+     align-items: center;
+     height: 64px !important;
+     width: 274px;
+    .digiclub__text{
+      width: 100px;
+      height: 26px;
+      margin: 0px 16px 0px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 10px;
+     & span{
+      font-family: IranYekan;
+      font-size: 12px;
+      font-weight: bold;
+     }
+     
+    }
+    .digiclub__img{
+      width: 168px !important;
+  height: 60px !important;
+  & img{
+      width: 168px !important;
+      height: 60px !important;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+  }
+  }
+}
+}
+}
+}
+

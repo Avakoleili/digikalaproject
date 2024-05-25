@@ -1,0 +1,385 @@
+.digital-wrapper__2 {
+    direction: ltr;
+    width: 1337px;
+    height: 420px;
+  flex-direction: row;
+  overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid #f0f0f1;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    .digital-1 {
+     
+      display: flex;
+      flex-direction: column;
+      width: 308px;
+      height: 392px;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-bottom: 8px;
+      .h4 {
+        width: 240px;
+        height: 33px;
+     
+        margin: 0 auto;
+        direction: rtl;
+        & h4 {
+          font-family: IranYekan;
+          font-weight: bold;
+          margin: 0 auto;
+          font-size: 16px;
+          color: #23254e;
+        }
+      }
+      .img-1 {
+        width: 119.5px;
+        height: 119.5px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .digital_a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .img-2 {
+        width: 119.5px;
+        height: 119.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         .digital_a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 121px;
+          height: 121px;
+          text-decoration: none !;
+        }
+      }
+      .digital__pic {
+        width: 130px;
+        height: 130px;
+        padding: 8px;
+      }
+      .digital_p {
+        width: 239px;
+        height: 23px;
+        margin: 0 auto;
+        direction: rtl;
+        & p {
+          font-family: IranYekan;
+          color: #81858b;
+          font-size: 10px;
+        }
+      }
+      .see__more{
+        width: 239.78px;
+        height: 26.04px;
+      
+        margin: 4px 0px 12px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 3px;
+        & span{
+          font-family: IranYekan;
+          font-size: 12px;
+          color: #19BFD3;
+        }
+        & svg{
+         position: relative;
+         top: 2px;
+  
+        }
+      }
+    }
+    .digital-2 {
+    
+      display: flex;
+      flex-direction: column;
+      width: 308px;
+      height: 392px;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-bottom: 8px;
+      .h4 {
+        width: 240px;
+        height: 33px;
+     
+        margin: 0 auto;
+        direction: rtl;
+        & h4 {
+          font-family: IranYekan;
+          font-weight: bold;
+          margin: 0 auto;
+          font-size: 16px;
+          color: #23254e;
+        }
+      }
+      .img-1 {
+        width: 119.5px;
+        height: 119.5px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .digital_a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .img-2 {
+        width: 119.5px;
+        height: 119.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         .digital_a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 121px;
+          height: 121px;
+          text-decoration: none !;
+        }
+      }
+      .digital__pic {
+        width: 130px;
+        height: 130px;
+        padding: 8px;
+      }
+      .digital_p {
+        width: 239px;
+        height: 23px;
+        margin: 0 auto;
+        direction: rtl;
+        & p {
+          font-family: IranYekan;
+          color: #81858b;
+          font-size: 10px;
+        }
+      }
+      .see__more{
+        width: 239.78px;
+        height: 26.04px;
+      
+        margin: 4px 0px 12px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 3px;
+        & span{
+          font-family: IranYekan;
+          font-size: 12px;
+          color: #19BFD3;
+        }
+        & svg{
+         position: relative;
+         top: 2px;
+  
+        }
+      }
+    }
+    .digital-3 {
+      
+      display: flex;
+      flex-direction: column;
+      width: 308px;
+      height: 392px;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-bottom: 8px;
+      .h4 {
+        width: 240px;
+        height: 33px;
+     
+        margin: 0 auto;
+        direction: rtl;
+        & h4 {
+          font-family: IranYekan;
+          font-weight: bold;
+          margin: 0 auto;
+          font-size: 16px;
+          color: #23254e;
+        }
+      }
+      .img-1 {
+        width: 119.5px;
+        height: 119.5px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .digital_a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .img-2 {
+        width: 119.5px;
+        height: 119.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         .digital_a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 121px;
+          height: 121px;
+          text-decoration: none !;
+        }
+      }
+      .digital__pic {
+        width: 130px;
+        height: 130px;
+        padding: 8px;
+      }
+      .digital_p {
+        width: 239px;
+        height: 23px;
+        margin: 0 auto;
+        direction: rtl;
+        & p {
+          font-family: IranYekan;
+          color: #81858b;
+          font-size: 10px;
+        }
+      }
+      .see__more{
+        width: 239.78px;
+        height: 26.04px;
+      
+        margin: 4px 0px 12px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 3px;
+        & span{
+          font-family: IranYekan;
+          font-size: 12px;
+          color: #19BFD3;
+        }
+        & svg{
+         position: relative;
+         top: 2px;
+  
+        }
+      }
+    }
+    .digital-4 {
+      
+      display: flex;
+      flex-direction: column;
+      width: 308px;
+      height: 392px;
+      padding-top: 8px;
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-bottom: 8px;
+      .h4 {
+        width: 240px;
+        height: 33px;
+     
+        margin: 0 auto;
+        direction: rtl;
+        & h4 {
+          font-family: IranYekan;
+          font-weight: bold;
+          margin: 0 auto;
+          font-size: 16px;
+          color: #23254e;
+        }
+      }
+      .img-1 {
+        width: 119.5px;
+        height: 119.5px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        .digital_a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .img-2 {
+        width: 119.5px;
+        height: 119.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         .digital_a{
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 121px;
+          height: 121px;
+          text-decoration: none !;
+        }
+      }
+      .digital__pic {
+        width: 130px;
+        height: 130px;
+        padding: 8px;
+      }
+      .digital_p {
+        width: 239px;
+        height: 23px;
+        margin: 0 auto;
+        direction: rtl;
+        & p {
+          font-family: IranYekan;
+          color: #81858b;
+          font-size: 10px;
+        }
+      }
+      .see__more{
+        width: 239.78px;
+        height: 26.04px;
+      
+        margin: 4px 0px 12px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 3px;
+        & span{
+          font-family: IranYekan;
+          font-size: 12px;
+          color: #19BFD3;
+        }
+        & svg{
+         position: relative;
+         top: 2px;
+  
+        }
+      }
+    }
+  }
+  .line_3{
+    width: 1px;
+    height: 420px;
+    background-color: #f0f0f1;
+  }

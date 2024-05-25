@@ -1,0 +1,55 @@
+    .table__wrapper{
+        width: 100%;
+        min-height: 380px;
+        padding-bottom: 15px;
+        
+        & h1{
+            font-family: IranYekan;
+        padding-bottom: 40px;
+        font-weight: normal;
+        }
+.table{
+    width: 1337px;
+    height: inherit;
+    border: 1px solid #F0F0F1;
+    border-radius: 15px;
+    border-spacing: 0;
+    margin: 0 auto;
+    border-collapse: separate;
+   border-radius: 10px;
+    & td{
+        width: inherit;
+        height: inherit;
+        border: 1px solid #F0F0F1;
+    }
+}
+    .square{
+        width: 190px;
+        height: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        .circle__2{
+            width: 85px;
+            height: 85px;
+            border-radius: 50% ;
+            background-color: #F0F0F1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & img{
+                width: 60px;
+                height: 60px;
+            }
+        
+        }
+    }
+}
+.test{
+    & h4{
+        font-family: IranYekan;
+        font-weight: normal;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+   
+    .login{
+        width: 400px;
+        height: 440px;
+        padding: 32px;
+        box-sizing: border-box;
+        border: 1px solid #E0E0E2;
+        border-radius: 10px;
+        .login__logo{
+            width: 334px;
+            height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+        }
+        .full{
+            width: 334px;
+            height: 333px;
+            direction: rtl;
+            & input{
+                all: unset;
+                width: 334px;
+                height: 50px;
+                border: 1px solid rgb(211, 47, 47);
+                border-radius: 8px;
+            }
+            & h1{
+                font-family: IranYekan;
+                font-size: 17px;
+                font-weight: bold;
+                padding-bottom: 16px;
+            }
+            .text{
+                font-family: IranYekan;
+                color: #3F4064;
+                font-size: 12px;
+               
+            }
+            & button{
+                width: 334px;
+                height:50px ;
+                background-color: #EF4056;
+                border: none;
+                border-radius: 8px;
+                position: relative;
+                top: 10px;
+                .voroud{
+                    font-family: IranYekan;
+                    font-weight: bold;
+                    color: #FFFFFF;
+                
+
+                }
+            }
+            .terms{
+                position: relative;
+                top: 20px;
+                font-family: IranYekan;
+                font-size: 11px;
+                color: #3F4064;
+                & a{
+                    font-family: IranYekan;
+                    text-decoration: none;
+                    color: #19BFD3;
+                }
+            }
+        }
+    }
+}
+@font-face{
+    font-family: IranYekan;
+    src: url('../fonts/IRANYekanWeb.eot');
+    src: url('../fonts/IRANYekanWeb.ttf');
+    src: url('../fonts/IRANYekanWeb.woff');    
+    src: url('../fonts/IRANYekanWeb.woff2');        
+}
+.disclaimer{
+    font-family: IranYekan;
+    color: #B2001A;
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+}

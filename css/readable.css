@@ -1,0 +1,77 @@
+.readalbe__wrapper{
+    width: 1240px;
+    height: 330px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+margin: 0 auto;
+.readalbe__header{
+    width: 1240px;
+    height: 66px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .khandaniha{
+        font-family: IranYekan;
+        font-size: 16px;
+        font-weight: 0px;
+    }
+    & a{
+        width: 180px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        & span{
+            color: rgb(25, 191, 211);
+            font-size: 12px;
+            font-family: IranYekan;
+
+        }
+        & svg{
+            position: relative;
+            bottom: 3px;
+            font-weight: normal;
+        }
+    }
+}
+.readable{
+ align-items: stretch;
+box-sizing: border-box;
+column-gap: 12px;
+direction: rtl;
+display: grid;
+grid-template-columns: 301px 301px 301px 301px;
+height: 264.336px;
+justify-content: space-around;
+row-gap: 12px;
+unicode-bidi: isolate;
+width: 1240px;
+
+& a{
+    width: 301px;
+    height: 264;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    border-radius: 10px;
+    outline: 1px solid rgb(224, 224, 226);
+    & img{
+        width: 301px;
+        height: 186px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .readable__text{
+        width: 300px;
+        height: 26px;
+        margin: 8px 0px 12px;
+        padding: 0px 16px;
+        font-family: IranYekan;
+        font-size: 12px;
+    }
+}
+}
+}

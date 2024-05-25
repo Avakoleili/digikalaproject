@@ -1,0 +1,195 @@
+.amazing__chosen__swiper__container{
+    width: 100%;
+    height:400px;
+direction: rtl;
+    background: linear-gradient(135deg, #ef4056 0, #ef394e 100%);
+margin: 0;
+padding: 0;
+.swiper-wrapper{
+  display: flex;
+  display: flex;
+    align-items: center;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  
+ 
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 192px !important;
+    height:360px !important;
+    border-radius: 8px;
+    padding: 12px 8px;
+    flex-direction: column;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .amazing__chosen{
+  width: 209px !important ;
+      background-color: transparent;
+    }
+    .amazing_chosen__1{
+      width: 120px;
+      height: 120px;
+     }
+     .amazing__chosen__2{
+      width: 145px  ;
+      height: 145px;
+      padding: 12px 0px;
+        & img{
+            width: 145px;
+            height: 145px;
+        }
+     }
+     .amazing__chosen__active{
+      display: flex !important;
+      background-color: transparent;
+      padding: 24px 0px;
+      width: 145px;
+      height: 385px;
+      align-items: center;
+      justify-content:center;
+  flex-direction: column;
+  margin: 0px 32px;
+     }
+    .amazing__chosen__svg__header{
+      width: 100%;
+      height: 26px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+    }
+    .amazing__chosen__img__holder{
+      width: 100%;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 4px;
+      & img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+    .amazing__chosen__discription{
+      width: 100%;
+      height: 52px;
+    margin-bottom: 4px;
+ 
+      & h3{
+        font-family: IranYekannum;
+        font-size: 12px;
+        color: #3f4064;
+        font-weight: 600;
+        text-align: right;
+        line-height: 2.17;
+      }
+    }
+    .amazing__chosen__few__left{
+      height: 15px;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      & p{
+        font-family: IranYekan;
+        font-size: 11px;
+        color:  #ef394e;
+      }
+    }
+    .amazing__chosen__price{
+   
+      width: 100%;
+      height: 33px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+align-items: center;
+margin-top: 4px;
+    }
+    .amazing__chosen__percentage__grid {
+      display: flex;
+      justify-content: center;
+      width: 35px;
+      height: fit-content;
+      border-radius: 20px;
+      color: whitesmoke;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #cd0c22;
+      font-family: IranYekannum;
+      font-weight: normal;
+      font-size: 12px;
+  }
+  .amazing__chosen__sold{
+    direction: ltr;
+    width: 100%;
+    height: 4px;
+    background-color: #f0f0f1;
+    border-radius: 9px;
+    .sold__red{
+      width: 90%;
+      height: inherit;
+      background-color: #ef394e;
+      border-radius: 9px;
+  
+    }
+  }
+  .amazing__chosen__sold__num{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    padding: 4px 0px 0px;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding: 4px 0px 0px;
+   .sold__num__right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    .right__1{
+      color: #ef394e;
+      font-family: Iranyekannum;
+      font-size: 11px;
+      margin-left: 4px;}
+      .right__2{
+        font-family: IranYekannum;
+        font-size: 11px;
+        color: #81858b;
+      }
+  }
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  outline: 1px solid lightgray;
+  text-align: center;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 10px;
+  color: #5a5e66;
+  font-weight: bolder !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+}
