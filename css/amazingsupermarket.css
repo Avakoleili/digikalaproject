@@ -13,7 +13,6 @@
     padding:16px 40px  12px  ;
     box-sizing: border-box;
     align-items: center;
-
     margin: 20px auto;
     border-radius: 15px;
     .amazing__right {
@@ -52,6 +51,8 @@
         height: 70px;
         background-color: #ffffff;
         border-radius: 50%;
+        position: relative;
+        flex-direction: column;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -93,4 +94,22 @@
     }
   }
  
+}
+.roundcircle__percent{
+  width: inherit;
+  & span{
+      display: flex;
+      justify-content: center;
+      width: 35px;
+      border-radius: 20px;
+      color: whitesmoke;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #cd0c22;
+      font-family: IranYekannum;
+      font-weight: normal;
+      font-size: 12px;
+  position: absolute;
+  
+  }
 }
